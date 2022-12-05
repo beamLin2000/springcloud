@@ -1,0 +1,6 @@
+com\yy\dto\SysMailLogDTO.class
+com\yy\dto\SysSmsLogDTO.class
+com\yy\enums\PlatformEnum.class
+com\yy\dto\SmsConfig.class
+com\yy\dto\SysMailTemplateDTO.class
+com\yy\dto\SysSmsDTO.class

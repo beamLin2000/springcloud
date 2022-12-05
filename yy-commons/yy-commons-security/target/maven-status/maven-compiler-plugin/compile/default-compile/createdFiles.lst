@@ -1,0 +1,11 @@
+com\yy\commons\security\enums\UserStatusEnum.class
+com\yy\commons\security\user\deserializer\GrantedAuthorityDeserializer.class
+com\yy\commons\security\config\PasswordConfig.class
+com\yy\commons\security\feign\fallback\AccountFeignClientFallbackFactory.class
+com\yy\commons\security\user\SecurityUser.class
+com\yy\commons\security\constant\ResourceConstant.class
+com\yy\commons\security\user\UserDetail.class
+com\yy\commons\security\config\TokenStoreConfig.class
+com\yy\commons\security\exception\SecurityAuthenticationEntryPoint.class
+com\yy\commons\security\feign\AccountFeignClient.class
+com\yy\commons\security\impl\RenUserDetailsServiceImpl.class

@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "yy.swagger",
+      "type": "com.yy.swagger.SwaggerRoute",
+      "sourceType": "com.yy.swagger.SwaggerRoute"
+    }
+  ],
+  "properties": [
+    {
+      "name": "yy.swagger.routes",
+      "type": "java.util.List<com.yy.swagger.SwaggerRouteProperties>",
+      "sourceType": "com.yy.swagger.SwaggerRoute"
+    }
+  ],
+  "hints": []
+}

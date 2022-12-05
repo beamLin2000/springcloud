@@ -1,0 +1,17 @@
+com\yy\config\WebSecurityConfig.class
+com\yy\config\ModuleConfigImpl.class
+com\yy\token\YYTokenEnhancer.class
+com\yy\handler\UserAuthenticationFailureHandler.class
+com\yy\filter\ValidateCodeFilter.class
+com\yy\listener\AuthenticationSuccessEventListener.class
+com\yy\controller\OAuth2Controller.class
+com\yy\constant\OauthConstant.class
+com\yy\exception\YYAuthenticationException.class
+com\yy\service\CaptchaService.class
+com\yy\service\impl\CaptchaServiceImpl.class
+com\yy\config\AuthorizationServerConfig.class
+com\yy\controller\CaptchaController.class
+com\yy\exception\YYWebResponseExceptionTranslator.class
+com\yy\exception\YYOAuth2Exception.class
+com\yy\AuthApplication.class
+com\yy\redis\CaptchaRedis.class

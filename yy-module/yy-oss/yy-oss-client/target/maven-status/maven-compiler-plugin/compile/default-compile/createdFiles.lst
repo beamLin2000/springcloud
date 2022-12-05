@@ -1,0 +1,5 @@
+com\yy\feign\OssFeignClient$MultipartSupportConfig.class
+com\yy\dto\UploadDTO.class
+com\yy\enums\OssTypeEnum.class
+com\yy\feign\OssFeignClient.class
+com\yy\feign\fallback\OssFeignClientFallbackFactory.class

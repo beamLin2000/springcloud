@@ -1,0 +1,130 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: yy-gateway-server
+  #环境 dev|test|prod
+  profiles:
+    active: dev
+  messages:
+    encoding: UTF-8
+    basename: i18n/messages_common
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    gateway:
+      metrics:
+        enabled: true
+      discovery:
+        locator:
+          enabled: true
+#      routes:
+#        - id: yy-auth-server
+#          uri: lb://yy-auth-server
+#          order: 1
+#          predicates:
+#            - Path=/auth/**
+#          filters:
+#            - StripPrefix=0
+#        #Admin服务
+#        - id: yy-admin-server
+#          uri: lb://yy-admin-server
+#          order: 2
+#          predicates:
+#            - Path=/sys/**
+#          filters:
+#            - StripPrefix=0
+#        #监控服务
+#        - id: yy-monitor-server
+#          uri: lb://yy-monitor-server
+#          order: 3
+#          predicates:
+#            - Path=/monitor/**
+#          filters:
+#            - StripPrefix=0
+#        #OSS服务
+#        - id: yy-oss-server
+#          uri: lb://yy-oss-server
+#          order: 4
+#          predicates:
+#            - Path=/oss/**
+#          filters:
+#            - StripPrefix=0
+#        #消息服务
+#        - id: yy-message-server
+#          uri: lb://yy-message-server
+#          order: 5
+#          predicates:
+#            - Path=/message/**
+#          filters:
+#            - StripPrefix=0
+#        #工作流服务
+#        - id: yy-activiti-server
+#          uri: lb://yy-activiti-server
+#          order: 5
+#          predicates:
+#            - Path=/activiti/**
+#          filters:
+#            - StripPrefix=0
+#        #定时任务服务
+#        - id: yy-job-server
+#          uri: lb://yy-job-server
+#          order: 6
+#          predicates:
+#            - Path=/job/**
+#          filters:
+#            - StripPrefix=0
+#        #APP流服务
+#        - id: yy-api-server
+#          uri: lb://yy-api-server
+#          order: 7
+#          predicates:
+#            - Path=/api/**
+#          filters:
+#            - StripPrefix=0
+    nacos:
+      discovery:
+        metadata:
+          management:
+            context-path: /actuator
+        server-addr: ${nacos_host:112.124.36.129}:${nacos_port:8848}
+        #nacos的命名空间ID，默认是public
+        namespace: ${nacos_namespace:}
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        namespace: ${spring.cloud.nacos.discovery.namespace}
+        group: YY_CLOUD_GROUP
+        file-extension: yaml
+        #指定共享配置，且支持动态刷新
+        extension-configs:
+          - data-id: datasource.yaml
+            group: ${spring.cloud.nacos.config.group}
+            refresh: true
+          - data-id: common.yaml
+            group: ${spring.cloud.nacos.config.group}
+            refresh: true
+
+
+yy:
+  swagger: #聚合文档配置
+    routes:
+      - name: 认证服务
+        location: /auth
+      - name: Admin服务
+        location: /sys
+      - name: OSS服务
+        location: /oss
+      - name: 消息服务
+        location: /message
+      - name: 工作流服务
+        location: /flow
+      - name: 定时任务服务
+        location: /job
+      - name: APP流服务
+        location: /api
+      - name: swagger
+        location: /swagger
