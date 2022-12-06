@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/fd-homepage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yy-admin/src/main/java" charset="UTF-8" />
@@ -32,6 +33,11 @@
     <file url="file://$PROJECT_DIR$/yy-module/yy-flow/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yy-module/yy-flow/yy-flow-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yy-module/yy-flow/yy-flow-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-module/yy-homepage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-module/yy-homepage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-module/yy-homepage/yy-homepage-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-module/yy-homepage/yy-homepage-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-module/yy-homepage/yy-pagehome/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yy-module/yy-jmreport/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yy-module/yy-job/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yy-module/yy-job/src/main/resources" charset="UTF-8" />
@@ -57,5 +63,35 @@
     <file url="file://$PROJECT_DIR$/yy-new/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yy-new/yy-new-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yy-new/yy-new-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-channel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-channel/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-channel/yy-operate-channel-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-channel/yy-operate-channel-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-coupon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-coupon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-coupon/yy-operate-coupon-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-coupon/yy-operate-coupon-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-integral/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-integral/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-integral/yy-operate-integral-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-integral/yy-operate-integral-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-invitation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-invitation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-invitation/yy-operate-invitation-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-invitation/yy-operate-invitation-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-news/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-news/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-news/yy-operate-news-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-news/yy-operate-news-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-redEnvelopes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-redEnvelopes/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-redEnvelopes/yy-operate-redEnvelopes-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-redEnvelopes/yy-operate-redEnvelopes-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-vip/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-vip/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-vip/yy-operate-vip-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yy-operate-vip/yy-operate-vip-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../respo/org/springframework/boot/spring-boot-starter-parent/2.7.3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../respo/org/springframework/boot/spring-boot-starter-parent/3.0.0/src/main/resources" charset="UTF-8" />
   </component>
 </project>

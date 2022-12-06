@@ -19,6 +19,7 @@
 		<module>yy-message</module>
 		<module>yy-api</module>
 		<module>yy-shardingsphere</module>
-	</modules>
+        <module>yy-homepage</module>
+    </modules>
 
 </project>

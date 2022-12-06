@@ -1,5 +1,0 @@
-com\yy\dao\UserDao.class
-com\yy\dao\UserLogDao.class
-com\yy\entity\UserLogEntity.class
-com\yy\ShardingSphereJdbcDemo.class
-com\yy\entity\UserEntity.class

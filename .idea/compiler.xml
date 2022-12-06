@@ -7,33 +7,51 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="renren-oss-server" />
         <module name="yy-auth" />
+        <module name="yy-homepage-client" />
+        <module name="yy-operate-invitation-server" />
+        <module name="yy-operate-vip-server" />
         <module name="yy-admin-server" />
-        <module name="yy-api-client" />
-        <module name="yy-message-client" />
+        <module name="yy-operate-coupon-client" />
         <module name="yy-gateway" />
         <module name="yy-admin-client" />
-        <module name="yy-commons-lock" />
-        <module name="yy-commons-security" />
         <module name="yy-commons-log" />
+        <module name="yy-operate-vip-client" />
         <module name="yy-api-server" />
         <module name="yy-new-server" />
+        <module name="yy-operate-coupon-client (1)" />
+        <module name="yy-operate-integral-client" />
+        <module name="yy-operate-coupon-server" />
+        <module name="yy-operate-news-server" />
+        <module name="yy-commons-swagger" />
+        <module name="yy-operate-invitation-client" />
+        <module name="yy-operate-redEnvelopes-server" />
+        <module name="yy-commons-xxl-job" />
+        <module name="yy-oss-server" />
+        <module name="renren-oss-server" />
+        <module name="yy-operate-news-client" />
+        <module name="yy-operate-channel-server" />
+        <module name="yy-pagehome" />
+        <module name="yy-api-client" />
+        <module name="yy-message-client" />
+        <module name="yy-commons-lock" />
+        <module name="yy-commons-security" />
         <module name="yy-xxl-job" />
         <module name="yy-commons-mybatis" />
         <module name="yy-message-server" />
+        <module name="yy-operate-redEnvelopes-client" />
+        <module name="fd-homepage" />
         <module name="renren-new-server" />
         <module name="yy-oss-client" />
-        <module name="yy-commons-swagger" />
         <module name="yy-new-client" />
         <module name="renren-sso-demo" />
         <module name="yy-commons-tools" />
-        <module name="yy-commons-xxl-job" />
-        <module name="yy-oss-server" />
+        <module name="yy-operate-integral-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="es-demo" target="1.8" />
+      <module name="fd-homepage" target="1.8" />
       <module name="microservice-gateway" target="1.8" />
       <module name="microservice-goods" target="1.8" />
       <module name="microservice-goods-api" target="1.8" />
@@ -47,6 +65,7 @@
       <module name="yy-flow" target="1.8" />
       <module name="yy-flow-client" target="1.8" />
       <module name="yy-flow-server" target="1.8" />
+      <module name="yy-homepage-server" target="1.8" />
       <module name="yy-jmreport" target="1.8" />
       <module name="yy-job" target="1.8" />
       <module name="yy-job-client" target="1.8" />
@@ -61,6 +80,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fd-homepage" options="-parameters" />
       <module name="yy-admin-client" options="-parameters" />
       <module name="yy-admin-server" options="-parameters" />
       <module name="yy-api-client" options="-parameters" />
@@ -78,6 +98,9 @@
       <module name="yy-flow-client" options="-parameters" />
       <module name="yy-flow-server" options="-parameters" />
       <module name="yy-gateway" options="-parameters" />
+      <module name="yy-homepage" options="" />
+      <module name="yy-homepage-client" options="-parameters" />
+      <module name="yy-homepage-server" options="-parameters" />
       <module name="yy-jmreport" options="-parameters" />
       <module name="yy-job-client" options="-parameters" />
       <module name="yy-job-server" options="-parameters" />
@@ -86,8 +109,23 @@
       <module name="yy-monitor" options="-parameters" />
       <module name="yy-new-client" options="-parameters" />
       <module name="yy-new-server" options="-parameters" />
+      <module name="yy-operate-channel-server" options="-parameters" />
+      <module name="yy-operate-coupon-client" options="-parameters" />
+      <module name="yy-operate-coupon-client (1)" options="-parameters" />
+      <module name="yy-operate-coupon-server" options="-parameters" />
+      <module name="yy-operate-integral-client" options="-parameters" />
+      <module name="yy-operate-integral-server" options="-parameters" />
+      <module name="yy-operate-invitation-client" options="-parameters" />
+      <module name="yy-operate-invitation-server" options="-parameters" />
+      <module name="yy-operate-news-client" options="-parameters" />
+      <module name="yy-operate-news-server" options="-parameters" />
+      <module name="yy-operate-redEnvelopes-client" options="-parameters" />
+      <module name="yy-operate-redEnvelopes-server" options="-parameters" />
+      <module name="yy-operate-vip-client" options="-parameters" />
+      <module name="yy-operate-vip-server" options="-parameters" />
       <module name="yy-oss-client" options="-parameters" />
       <module name="yy-oss-server" options="-parameters" />
+      <module name="yy-pagehome" options="-parameters" />
       <module name="yy-seata-order" options="-parameters" />
       <module name="yy-seata-storage" options="-parameters" />
       <module name="yy-shardingsphere-demo" options="-parameters" />

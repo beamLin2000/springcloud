@@ -5,6 +5,28 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-module/yy-homepage/yy-pagehome/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-vip/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-redEnvelopes/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-news/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-invitation/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-integral/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-channel/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-channel/yy-operate-channel-client/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-channel/yy-operate-channel-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-coupon/yy-operate-coupon-client/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-coupon/yy-operate-coupon-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-integral/yy-operate-integral-client/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-integral/yy-operate-integral-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-invitation/yy-operate-invitation-client/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-invitation/yy-operate-invitation-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-news/yy-operate-news-client/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-news/yy-operate-news-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-redEnvelopes/yy-operate-redEnvelopes-client/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-redEnvelopes/yy-operate-redEnvelopes-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-vip/yy-operate-vip-client/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-operate-vip/yy-operate-vip-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -12,6 +34,7 @@
         <option value="$PROJECT_DIR$/yy-commons/yy-commons-dynamic-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/yy-module/yy-devtools/pom.xml" />
         <option value="$PROJECT_DIR$/yy-module/yy-flow/pom.xml" />
+        <option value="$PROJECT_DIR$/yy-module/yy-homepage/yy-homepage-server/pom.xml" />
         <option value="$PROJECT_DIR$/yy-module/yy-jmreport/pom.xml" />
         <option value="$PROJECT_DIR$/yy-module/yy-job/pom.xml" />
         <option value="$PROJECT_DIR$/yy-module/yy-seata/pom.xml" />

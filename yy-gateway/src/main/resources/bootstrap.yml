@@ -22,38 +22,38 @@ spring:
       discovery:
         locator:
           enabled: true
-#      routes:
-#        - id: yy-auth-server
-#          uri: lb://yy-auth-server
-#          order: 1
-#          predicates:
-#            - Path=/auth/**
-#          filters:
-#            - StripPrefix=0
-#        #Admin服务
-#        - id: yy-admin-server
-#          uri: lb://yy-admin-server
-#          order: 2
-#          predicates:
-#            - Path=/sys/**
-#          filters:
-#            - StripPrefix=0
+      routes:
+        - id: yy-auth-server
+          uri: lb://yy-auth-server
+          order: 1
+          predicates:
+            - Path=/auth/**
+          filters:
+            - StripPrefix=0
+        #Admin服务
+        - id: yy-admin-server
+          uri: lb://yy-admin-server
+          order: 2
+          predicates:
+            - Path=/sys/**
+          filters:
+            - StripPrefix=0
 #        #监控服务
-#        - id: yy-monitor-server
-#          uri: lb://yy-monitor-server
-#          order: 3
-#          predicates:
-#            - Path=/monitor/**
-#          filters:
-#            - StripPrefix=0
+        - id: yy-monitor-server
+          uri: lb://yy-monitor-server
+          order: 3
+          predicates:
+            - Path=/monitor/**
+          filters:
+            - StripPrefix=0
 #        #OSS服务
-#        - id: yy-oss-server
-#          uri: lb://yy-oss-server
-#          order: 4
-#          predicates:
-#            - Path=/oss/**
-#          filters:
-#            - StripPrefix=0
+        - id: yy-oss-server
+          uri: lb://yy-oss-server
+          order: 4
+          predicates:
+            - Path=/oss/**
+          filters:
+            - StripPrefix=0
 #        #消息服务
 #        - id: yy-message-server
 #          uri: lb://yy-message-server

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/microservice-goods/microservice-goods-api/microservice-goods-api.iml" filepath="$PROJECT_DIR$/microservice-goods/microservice-goods-api/microservice-goods-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-goods/microservice-goods-boot/microservice-goods-boot.iml" filepath="$PROJECT_DIR$/microservice-goods/microservice-goods-boot/microservice-goods-boot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-shop/microservice-shop-api/microservice-shop-api.iml" filepath="$PROJECT_DIR$/microservice-shop/microservice-shop-api/microservice-shop-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-shop/microservice-shop-boot/microservice-shop-boot.iml" filepath="$PROJECT_DIR$/microservice-shop/microservice-shop-boot/microservice-shop-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fd-homepage/fd-homepage.iml" filepath="$PROJECT_DIR$/fd-homepage/fd-homepage.iml" />
     </modules>
   </component>
 </project>

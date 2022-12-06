@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>yy-module</artifactId>
+        <groupId>com.yy</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>yy-homepage</artifactId>
+    <packaging>pom</packaging>
+
+    <name>yy-homepage</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>yy-homepage-client</module>
+        <module>yy-pagehome</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.yy</groupId>
+            <artifactId>yy-commons-tools</artifactId>
+        </dependency>
+    </dependencies>
+</project>
